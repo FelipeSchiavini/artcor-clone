@@ -1,0 +1,12 @@
+.rainbow-button{
+    color:#fff;
+    background-image: url("../../images/header/header-bgOrcamento.png");
+    
+    border: none;
+    text-transform: uppercase   ;
+    cursor: pointer;
+    font-family: "Roboto", Sans-serif;
+
+    width: 15%;
+    height: 100%;
+}

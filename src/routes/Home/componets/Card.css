@@ -1,0 +1,27 @@
+.Carrousel2Card{
+    width: 180px;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+}
+
+.img-article{
+    width: 180px;
+}
+
+.title-article{
+    color: blue;
+    text-transform: uppercase;
+}
+
+.button-article{
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+    background-image: url('../../../images/article/artigos-ctaLeiaMais.png');
+    background-repeat: no-repeat;
+    background-size: 120px 30px ;
+    height: 30px;
+    width: 120px;
+}

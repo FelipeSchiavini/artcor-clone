@@ -1,0 +1,89 @@
+.home-conteiner{
+    background-color: rgb(226, 224, 224);
+}
+
+.content-container{
+    width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 35px 0px rgb(129, 129, 129);
+}
+
+.nav-container{
+    background-color: #fff;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+    
+.body-container{
+    width: 1000px;
+    margin: auto;
+}
+
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.link{
+    text-decoration: none;
+    font-family: "Roboto", Sans-serif;
+    color: gray;
+    font-weight: 600;
+}
+
+.selected-link{
+    color: blue
+}
+
+.not-selected-link{
+    color:pink
+}
+
+.background-image{
+    background-image: url('../images/others/banner-bg.png');
+    background-size: cover;
+    width: 100%;
+    min-height: 30rem;
+}
+
+.text-banner1{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    justify-content: space-around;
+    margin: auto 10% auto 10%;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.banner1-t1{
+    color: rgb(44, 57, 177);
+    font-weight: 1000;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.banner1-t2{
+    color: rgb(7, 90, 21);
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.banner1-t3{
+    color: rgb(218, 233, 3);
+    font-weight: 1200;
+    font-size: 5rem;
+    margin: 0;
+}
+.banner1-t4{
+    color: rgb(218, 233, 3);
+    font-weight: 1000;
+    font-size: 2.8rem;
+    margin: 0;
+}
