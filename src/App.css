@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --blue: rgb(0,30,87);
+  --white: #ffffff;
+  --yellow: rgba(224, 176, 0, 1);
+  --green: rgba(0, 92, 14, 1);
+  --font: "Roboto", Sans-serif;
+
+  font-family: var(--font);
+}

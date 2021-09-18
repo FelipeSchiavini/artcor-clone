@@ -12,15 +12,18 @@ import Carrousel2 from '../routes/Home/Carrousel2'
 import FormContactUs from '../routes/Home/FormContactUs'
 import Followus from '../routes/Home/Followus'
 import Footer from '../routes/Home/Footer'
+import Header from '../routes/Home/Header'
 
 import './Navigation.css'
 
 function Navigation () {
     return (
+        <>
+        <Header/>
         <div className="home-conteiner">
             <div className="content-container">
                 <section className="nav-container">
-                    <img src= { logo } alt = "logo"/>
+                    <img src= { logo } alt = "logo" class="nav-logo"/>
                     <nav className="navigation-menu">
                         <NavLink className="link" activeClassName="selected-link" exact to="/home">Início</NavLink>
                         <NavLink className="link" activeClassName="selected-link"  exact to="/about-us">Sobre nós</NavLink>
@@ -41,6 +44,7 @@ function Navigation () {
                 </div>
             </div>
         </div>
+    </>
     )
 }
 
