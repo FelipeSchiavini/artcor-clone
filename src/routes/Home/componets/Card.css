@@ -13,6 +13,14 @@
 .title-article{
     color: blue;
     text-transform: uppercase;
+    font-weight: 500;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.text-article{
+    margin: 5px auto 17px auto;
+    font-size: 0.8rem;
 }
 
 .button-article{

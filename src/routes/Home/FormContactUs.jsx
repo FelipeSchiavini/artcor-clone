@@ -10,8 +10,8 @@ function FormContactUs () {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates expedita officiis sed omnis!</p>
             <div className="fcu-input-container">
                 <input type="text" className="fcu-input" placeholder="Nome"/>
-                <input type="text" className="fcu-input" placeholder="e-mail"/>
-                <input type="text" className="fcu-input" placeholder="telefone"/>
+                <input type="email" className="fcu-input" placeholder="e-mail"/>
+                <input type="number" className="fcu-input" placeholder="telefone"/>
                 <textarea className="fcu-input" placeholder="text area"/>
                 <div className="div-contactus-form">
                     <input type="checkbox" className="fcu-input"/>
