@@ -424,6 +424,7 @@
 .div-banner02-01{
     display: flex;
     flex-direction: column;
+    background-color: #fff;
 }
 
 .title-banner2{
