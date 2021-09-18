@@ -1,5 +1,5 @@
 .Carrousel2Card{
-    width: 180px;
+    width: 230px;
     padding: 10px;
     background-color: #fff;
     position: relative;
@@ -7,14 +7,15 @@
 }
 
 .img-article{
-    width: 180px;
+    width: 230px;
 }
 
 .title-article{
     color: blue;
     text-transform: uppercase;
     font-weight: 500;
-    margin: auto;
+    width: 60%;
+    margin: auto 0;
     font-size: 1rem;
 }
 
@@ -26,7 +27,7 @@
 .button-article{
     position: absolute;
     bottom: -15px;
-    left: 40px;
+    left: 65px;
     background-image: url('../../../images/article/artigos-ctaLeiaMais.png');
     background-repeat: no-repeat;
     background-size: 120px 30px ;
